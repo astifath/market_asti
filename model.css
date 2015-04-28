@@ -1,0 +1,93 @@
+body{
+	background-image: url(img/dasar.png);
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+#bungkus{
+width: 800px;
+margin: auto;
+}
+#atas{
+	outline: none;
+	width: 570px;
+	height: 35px;
+	border-radius: 20px 20px 0px 0px;
+	background-image: url(img/tr.png);
+	border:5px solid white;
+}
+#kiri{
+	margin: auto;
+	width: 400px;
+	min-height: 400px;
+	border-radius: 20px 0px 0px 0px;
+	background-color: white;
+	float: left;
+}
+#kanan{
+	margin: auto;
+	width: 400px;
+	min-height: 400px;
+	border-radius: 0px 20px 0px 0px;
+	background-image: url(img/img.jpg);
+	float: right;  
+}
+#kanan1{
+	margin: auto;
+	width: 400px;
+	min-height: 400px;
+	border-radius: 0px 20px 0px 0px;
+	background-image: url(img/abu.png);
+	float: right;  
+}
+#cetak{
+	width: 800px;
+	min-height: 500px;
+	background-image: url(img/tr.png);
+	border-radius: 20px 20px 0px 0px;
+	border:5px solid black;
+}
+#bawah{
+width: 800px;
+min-height: 300px;
+margin: auto;
+background-image: url(img/abu.png);	
+}
+#batas     {
+	clear:both;
+}
+#footer{
+	width: 790px;
+	height: 40px;
+	background-image:url(img/tr.png);
+	padding-top: 8px;
+	border:5px solid white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: #F70676;
+}
+table { 
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  border-style: dashed;
+  border-width: thin;
+}
+table tr th, table tr td { 
+  background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;
+} 
+table tr td { 
+  background: #FFF;
+  color: #47433F;
+  border-top: 1px solid #ddd;
+}
